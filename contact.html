@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="no-scroll-overlay"></div>
+    <div class="cursor"></div>
+
+    <!-- Header Section start -->
+    <header class="header">
+      <div class="web_container">
+        <div class="web_row header_row">
+          <!-- 1st Column -->
+          <div class="header_logo cursor-scale small">
+            <img
+              src="./img/logo-saasina-cp.jpeg"
+              class="logo_saasina"
+              alt="logo-saasina"
+            />
+          </div>
+          <!-- 2nd Column -->
+          <nav class="navbar nav-item">
+            <a class="cursor-scale small" href="./index.html">Home</a>
+            <a class="cursor-scale small" href="./work.html">Work</a>
+            <a class="cursor-scale small non-active" href="./about.html">About</a>
+            <a class="cursor-scale small active" href="contact.html">Contact</a>
+
+            <div class="header_icon">
+              <i class="fas fa-bars" id="menu_btn"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- Header Section End -->
+
+    <div class="section_main">
+
+      <div class="section-heading">
+        <div class="section-heading-title cursor-scale">
+          <span>Let’s</span> <br>
+          <span>work</span> <br>
+          <span>together</span>
+        </div>
+      </div>
+
+      <div class="section-contact">
+
+        <div class="flex-col-left">
+          <form class="form" method="post" action="" >
+
+            <div class="form-col">
+              <div class="form-col-1">
+                <h5>01</h5>
+                <label class="label" for="name">What's your name?</label>
+                 
+              </div>
+              <div class="form-col-2">
+
+                <input class="field" type="text" id="form-name" name="name" value="" required="" placeholder="Shahid Mahmood Vohra*">
+
+              </div>
+            </div>
+            <div class="form-col">
+              <div class="form-col-1">
+                <h5>02</h5>
+                <label class="label" for="email">What's your email?</label>
+                 
+              </div>
+              <div class="form-col-2">
+
+                <input class="field" type="email" id="form-email" name="email" value="" required="" placeholder="ssmvohra@gmail.com*">
+
+              </div>
+            </div>
+            <div class="form-col">
+              <div class="form-col-1">
+                <h5>03</h5>
+                <label class="label" for="email">What's  the name of your organization?</label>
+                 
+              </div>
+              <div class="form-col-2">
+
+                <input class="field" type="text" id="form-company" name="company" value="" required="" placeholder="saasina-dev®">
+
+              </div>
+            </div>
+            <div class="form-col">
+              <div class="form-col-1">
+                <h5>04</h5>
+                <label class="label" for="email">What's services are you looking for?</label>
+                 
+              </div>
+              <div class="form-col-2">
+                <input class="field" type="text" id="form-service" name="service" value="" required="" placeholder="Web Development ...">
+
+              </div>
+            </div>
+            <!-- <div class="form-col border-top cursor-scale small">
+
+
+
+                  
+              <h5>01</h5>
+                <label class="label" for="name">What's your name?</label>
+                  <input class="field" type="text" id="form-name" name="name" value="" required="" placeholder="Shahid Mahmood Vohra*">
+            </div> -->
+            <!-- <div class="form-col cursor-scale small">
+              <h5>02</h5>
+                <label class="label" for="email">What's your email?</label>
+                  <input class="field" type="email" id="form-email" name="email" value="" required="" placeholder="ssmvohra@gmail.com*">
+            </div> -->
+            <!-- <div class="form-col cursor-scale small">
+              <h5>03</h5>
+                <label class="label" for="email">What's the name of your organization?</label>
+                  <input class="field" type="text" id="form-company" name="company" value="" required="" placeholder="saasina-dev®">
+            </div> -->
+            <!-- <div class="form-col cursor-scale small">
+              <h5>04</h5>
+                <label class="label" for="email">What services are you looking for?</label>
+                  <input class="field" type="text" id="form-service" name="service" value="" required="" placeholder=" Web Development ...">
+            </div> -->
+ 
+            <div class="form-col border-bottom">
+              <div class="form-col-1">
+                <h5>05</h5>
+                <label class="label" for="email">Your message</label>
+              </div>
+              <div class="form-col-2">
+                <textarea class="field " type="text" id="form-message" name="message" rows="8" required=""                  placeholder="Hello Ismail,  can you help me with ... *">
+                  </textarea> 
+              </div>
+            </div>
+            <!-- <div class="form-col cursor-scale ">
+              <h5>05</h5>
+                <label class="label" for="message">Your message</label>
+                  <textarea class="field" type="text" id="form-message" name="message" rows="8" required=""                  placeholder="Hello Ismail,  can you help me with ... *">
+                  </textarea>  
+            </div> -->
+                                    
+            
+                                    
+        </div>
+
+        <div class="btn-contact-send  flex-col-right">
+          <div class="contact-us">
+            <div class="contact">
+              <span>Contact</span>
+            </div>
+            <div class="us">
+              <span>Us</span>
+            </div>
+          </div>
+          <!-- <h2 class="section-contact-caption  cursor-scale small">
+            <span><i>Us</i></span><span><i>Contact</i></span>
+          </h2> -->
+          <div class="arrow-down">
+            <svg
+              class="icon cursor-scale small"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 32 33">
+              <path
+                fill-rule="evenodd"
+                d="M27.000,33.000 L7.000,33.000 L7.000,28.000 L23.964,28.000 L0.126,4.161 L3.661,0.626 L27.000,23.965 L27.000,8.000 L32.000,8.000 L32.000,28.000 L32.000,33.000 L27.000,33.000 Z">
+              </path>
+            </svg>
+          </div>
+          <div class="email-cell">
+            <a href="mailto:ssmvohra@gmail.com" class="e-mail">ssmvohra@gmail.com</a>
+            <span class="cell">+9221 3002120699</span>
+          </div>
+          <!-- <p class="section-contact-email">
+            <svg
+              class="icon cursor-scale small"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 32 33">
+              <path
+                fill-rule="evenodd"
+                d="M27.000,33.000 L7.000,33.000 L7.000,28.000 L23.964,28.000 L0.126,4.161 L3.661,0.626 L27.000,23.965 L27.000,8.000 L32.000,8.000 L32.000,28.000 L32.000,33.000 L27.000,33.000 Z">
+              </path>
+            </svg>
+            <a href="mailto:hello@saasina-dev.com" class="e-mail" style="transform: rotate(0.001deg);">hello@saasina-dev.com
+              <span class="mob-no">+9221-3002120699</span></a>
+          </p> -->
+          <div class="business-details">
+          <h5 class="links-wrap-5 ">Business Details
+          </h5>
+          <ul class="links-wrap">
+            <li><p>CoC: 36725218</p></li>
+            <li><p>VAT: cp000596813</p></li>
+            <li><p>Location: The Pakistan</p></li>
+          </ul>
+          <h5 class="links-wrap-5 ">Socials
+          </h5>
+          <ul class="links-wrap">
+            <li class="btn btn-link btn-link-external">
+                <a href="https://www.facebook.com/Smashcode.dev" target="_blank" class="btn-click magnetic">
+                    <span class="btn-text btn-text-social">
+                      <span class="btn-text-inner fb">Facebook</span>
+                    </span>
+                </a>
+            </li>
+            <li class="btn btn-link btn-link-external">
+                <a href="https://www.instagram.com/smashcode.dev/" target="_blank" class="btn-click magnetic"       data-strength="20" data-strength-text="10">
+                   <span class="btn-text btn-text-social">
+                      <span class="btn-text-inner insta">Instagram</span>
+                   </span>
+                </a>
+            </li>
+            <li class="btn btn-link btn-link-external">
+                <a href="https://twitter.com/Smashcodedev" target="_blank" class="btn-click magnetic">
+                  <span class="btn-text btn-text-social">
+                    <span class="btn-text-inner twitter">Twitter</span>
+                  </span>
+                </a>
+            </li>
+            <li class="btn btn-link btn-link-external">
+                <a href="https://www.linkedin.com/in/smashcode/" target="_blank" class="btn-click magnetic">
+                  <span class="btn-text btn-text-social">
+                    <span class="btn-text-inner linkedin">LinkedIn</span>
+                  </span>
+                </a>
+            </li>
+          </ul> 
+    
+          </div>  
+        </div>
+      </div>
+
+      <div class="btn-bottom">
+      <button>
+        <a href="#" class="btn-animated-submit">
+          <span class="btn-animated-submit-1a">Send it!</span>
+            <i class="btn-animated-submit-1b"></i></a>  
+      </button> 
+      </div>
+
+    </div>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script>
+
+      //  for White Dot for Current Page
+      // Get the current page's URL
+      const currentPage = window.location.href;
+
+      // Get all the navigation links
+      const navLinks = document.querySelectorAll('.navbar a');
+
+    // Loop through each link to check if its href matches the current page
+      navLinks.forEach(link => {
+      if (link.href === currentPage) {
+        link.classList.add('active');
+      }
+    });
+
+      // Select the cursor and cursor-scale elements
+      var cursor = document.querySelector(".cursor"),
+        cursorScale = document.querySelectorAll(".cursor-scale"),
+        mouseX = 0,
+        mouseY = 0;
+
+      // Move the cursor element to the current mouse position using GSAP
+      gsap.to({}, 0.016, {
+        repeat: -1,
+
+        onRepeat: function () {
+          gsap.set(cursor, {
+            css: {
+              left: mouseX,
+              top: mouseY,
+            },
+          });
+        },
+      });
+
+      // Update mouseX and mouseY variables on mousemove
+      window.addEventListener("mousemove", function (e) {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      // Add mouseover and mouseleave events to cursor-scale elements
+      cursorScale.forEach((link) => {
+        link.addEventListener("mouseleave", () => {
+          cursor.classList.remove("grow");
+          cursor.classList.remove("grow-small");
+        });
+        link.addEventListener("mousemove", () => {
+          cursor.classList.add("grow");
+          if (link.classList.contains("small")) {
+            cursor.classList.remove("grow");
+            cursor.classList.add("grow-small");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="loco.css">
+  </head>
+  <body>
+    <div class="no-scroll-overlay"></div>
+        <div class="cursor"></div>
+        
+      <!-- Header Section start -->
+    <header class="header">
+      <div class="web_container">
+        <div class="web_row header_row" >
+          <!-- 1st Column -->
+          <div class="header_logo cursor-scale small">
+            <img src="./img/logo-saasina-cp.jpeg" class="logo_saasina" alt="logo-saasina">
+          </div>
+          <!-- 2nd Column -->
+          <nav class="navbar nav-item">
+            <a class="cursor-scale small active non-active" href="index.html">Home</a>
+            <a class="cursor-scale small" href="./work.html">Work</a>
+            <a class="cursor-scale small" href="#about">About </a>
+            <a class="cursor-scale small" href="./contact.html">Contact</a>
+        
+            <div class="header_icon">
+              <i class="fas fa-bars" id="menu_btn"></i>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+      <!-- Header Section End -->
+
+      <!-- Main Page Start -->
+    <section class="section_main">
+      <div class="web_container">
+        <div class=" web_row section_row">
+                <!-- 1st col -->
+          <div class="section_1 ">
+            <div class="section_1a">
+              <p class="section_1a_para ">
+                hi, I am Shahid Vohra a Web Developer
+              </p>
+            </div>
+          </div> 
+                   <!--2nd col  -->
+          <div class="section_2">   
+            <div class="section_2b">
+              <div class="section_2b_i">
+                <p class="section_2b_para">
+                  <p class="section_2b_para">located</p>
+                  <p class="section_2b_para">in</p> 
+                  <p class="section_2b_para">pakistan</p>
+                </p>
+                <div class="outer-circle"></div>
+              </div>
+              <div class="section_2b_ii">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+            </div>
+          </div>    
+                <!-- 3rd col -->
+          <div class="section_3">
+            <img src="./img/user-7-.png" class="my-photo" alt="My photo">
+          </div>
+                <!-- 4th col -->
+          <div class="section_4 cursor-scale">
+            <div class="section_4a-words">Reality</div>
+            <div class="section_4a-words">Of</div>
+            <div class="section_4a-words">Your</div>
+            <div class="section_4a-words">Imagination</div>
+            <div class="section_4a-words">Is</div>
+            <div class="section_4a-words">Saasina.dev</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="second">
+      <div class="elem" id="elem1">
+        <img src="./img/iqra-design.png">
+        <h1>Iqra's Design</h1>
+        <h5>2023</h5>
+      </div>
+      <div class="elem" id="elem2">
+        <img src="./img/saasina-food.png" >
+        <h1>saasina food</h1>
+        <h5>2023</h5>
+      </div>
+      <div class="elem elemlast" id="elem3">
+        <img src="./img/online-store.png" >
+        <h1>saasina store</h1>
+        <h5>2023</h5>
+      </div>
+
+       <div class="see-more">
+        <a href="./work.html" class="next">See all Projects</a>
+      </div> 
+
+    </section> 
+
+    <section class="about" id="about">
+      <img src="./img/user-7-.png">
+      <div class="textabout ">
+        <h5>(About me)</h5>
+        <p class="cursor-scale small">I'm Web Developer with a passion of making modern websites With five years of experience in the field of web development, I have the skills and expertise to help you create a digital presence that truly represents your brand and vision.
+          From simple brochure websites to complex e-commerce platforms, I have worked on a wide range of projects, and I am confident in my ability to deliver top-notch results on every project I take on. Whether you are a small business looking to establish an online presence or a larger company in need of a custom web application, I have the knowledge and resources to get the job done right..
+        </p>
+
+        <a href="./contact.html" >Let's Talk</a>
+
+
+      </div>
+
+    </section> 
+
+    <section class="subscribe">
+      <h5>(forgot to mention)</h5>
+      <h3 class="cursor-scale small">don't hesitate to contact us <i class="fa-solid fa-square-up-right"></i></h3>
+    </section>
+
+    <section class="footer">
+      <div class="footerleft cursor-scale small">
+        <h5>2023 &copy;</h5>
+        <h5>0.:05 AM EST</h5>
+      </div>
+      <div class="footerright cursor-scale small">
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">twitter</a>
+        <a href="#">linkedin</a>
+      </div>
+    </section>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <script>
+
+      // for White Dot on each Active link this code will applied
+
+      // Get the current page's URL
+    const currentPage = window.location.href;
+
+    // Get all the navigation links
+    const navLinks = document.querySelectorAll('.navbar a');
+
+    // Loop through each link to check if its href matches the current page
+    navLinks.forEach(link => {
+    if (link.href === currentPage) {
+        link.classList.add('active');
+      }
+    });
+
+    // Mouse move on .elem images, images will moves
+
+    const elems = document.querySelectorAll('.elem');
+
+elems.forEach(elem => {
+  const image = elem.querySelector('img');
+
+  elem.addEventListener('mouseenter', () => {
+    elem.addEventListener('mousemove', moveImage);
+    image.style.display = 'block';
+  });
+
+  elem.addEventListener('mouseleave', () => {
+    elem.removeEventListener('mousemove', moveImage);
+    image.style.display = 'none';
+  });
+
+  function moveImage(e) {
+    const rect = elem.getBoundingClientRect();
+    const xPos = Math.min(Math.max(e.clientX - rect.left - (image.width / 2), 0), rect.width - image.width);
+    const yPos = Math.min(Math.max(e.clientY - rect.top - (image.height / 2), 0), rect.height - image.height);
+
+    image.style.transform = `translate(${xPos}px, ${yPos}px)`;
+    }
+  });
+
+
+// Select the cursor and cursor-scale elements
+      var cursor = document.querySelector(".cursor"),
+        cursorScale = document.querySelectorAll(".cursor-scale"),
+        mouseX = 0,
+        mouseY = 0;
+
+      // Move the cursor element to the current mouse position using GSAP
+      gsap.to({}, 0.016, {
+        repeat: -1,
+
+        onRepeat: function () {
+          gsap.set(cursor, {
+            css: {
+              left: mouseX,
+              top: mouseY,
+            },
+          });
+        },
+      });
+
+      // Update mouseX and mouseY variables on mousemove
+      window.addEventListener("mousemove", function (e) {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      // Add mouseover and mouseleave events to cursor-scale elements
+      cursorScale.forEach((link) => {
+        link.addEventListener("mouseleave", () => {
+          cursor.classList.remove("grow");
+          cursor.classList.remove("grow-small");
+        });
+        link.addEventListener("mousemove", () => {
+          cursor.classList.add("grow");
+          if (link.classList.contains("small")) {
+            cursor.classList.remove("grow");
+            cursor.classList.add("grow-small");
+          }
+        });
+      });
+
+      
+document.querySelectorAll(".elem")
+.forEach(function (elem){
+    elem.addEventListener("mousemove", function(details){
+        gsap.to(elem.querySelector("img"), {
+            opacity:1,
+            ease:Power1,
+            
+
+
+        })
+
+    });
+
+});
+    </script>
+  </body>
+</html>
