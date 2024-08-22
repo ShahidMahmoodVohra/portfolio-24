@@ -262,82 +262,41 @@ a {
 .development {
   color: var(--color-border-light);
 }
-.view-project-1 {
-  color: #55c57a;
+.view-project-15 {
+  color: #C29525;
 }
-.view-project-1:hover {
-  background-color: #55c57a;
+.view-project-15:hover {
+  background-color: #C29525;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
   transition: all 0.5s;
 }
-.view-project-2 {
-  color: #fe0058;
+.view-project-14 {
+  color: #232ED1;
 }
-.view-project-2:hover {
-  background-color: #fe0058;
+.view-project-14:hover {
+  background-color: #232ED1;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
   transition: all 0.5s;
 }
-.view-project-3 {
-  color: #d09760;
+.view-project-13 {
+  color: #D77A61;
 }
-.view-project-3:hover {
-  background-color: #d09760;
+.view-project-13:hover {
+  background-color: #D77A61;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
   transition: all 0.5s;
 }
-.view-project-4 {
-  /* color: #989d9e; */
-  color: #d1d1d1;
+.view-project-12 {
+  color: #6D30ED;
 }
-.view-project-4:hover {
-  background-color: #989d9e;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  transition: all 0.5s;
-}
-.view-project-5 {
-  color: #b9181d;
-}
-.view-project-5:hover {
-  background-color: #b9181d;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  transition: all 0.5s;
-}
-.view-project-6 {
-  color: #686765;
-}
-.view-project-6:hover {
-  background-color: #686868;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  transition: all 0.5s;
-}
-.view-project-7 {
-  color: #a79a2d;
-}
-.view-project-7:hover {
-  background-color: #a79a2d;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
-  transition: all 0.5s;
-}
-.view-project-8 {
-  color: #57ecff;
-}
-.view-project-8:hover {
-  background-color: #2eefff;
+.view-project-12:hover {
+  background-color: #6D30ED;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
@@ -357,17 +316,87 @@ a {
   border-radius: 5px;
   transition: all 0.5s;
 }
-.view-project-12 {
-  color: #6D30ED;
+.view-project-8 {
+  color: #57ecff;
 }
-.view-project-12:hover {
-  background-color: #6D30ED;
+.view-project-8:hover {
+  background-color: #2eefff;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.view-project-7 {
+  color: #a79a2d;
+}
+.view-project-7:hover {
+  background-color: #a79a2d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.view-project-6 {
+  color: #d1d1d1;
+}
+.view-project-6:hover {
+  background-color: #989d9e;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.view-project-5 {
+  color: #d09760;
+}
+.view-project-5:hover {
+  background-color: #d09760;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.view-project-4 {
+  color: #fe0058;
+}
+.view-project-4:hover {
+  background-color: #fe0058;
   color: #fff;
   padding: 5px;
   border-radius: 5px;
   transition: all 0.5s;
 }
 
+.view-project-3 {
+  color: #55c57a;
+}
+.view-project-3:hover {
+  background-color: #55c57a;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.view-project-2 {
+  color: #b9181d;
+}
+.view-project-2:hover  {
+  background-color: #b9181d;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+.view-project-1 {
+  color: #686765;
+}
+.view-project-1:hover {
+  background-color: #686868;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
 
 .cursor-scale {
   cursor: pointer;
