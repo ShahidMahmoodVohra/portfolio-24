@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Open+Sans:wght@300;400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Quicksand:wght@300&display=swap");
+
+:root {
+  --color-primary: #999d9e;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-black-dark-1: #1c1d20;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  --color-white: #fff;
+  /* --color-border-light: rgba(255, 255, 255, 0.2); */
+  --color-border-light: #aaaaaa;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: var(--color-black-dark-1);
+}
+
+.no-scroll-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 900;
+  display: none;
+}
+.cursor {
+  position: fixed;
+  width: 26px;
+  height: 26px;
+  margin-left: -15px;
+  margin-top: -15px;
+  user-select: none;
+  border-radius: 100%;
+  left: -1.3rem;
+  top: -1.3rem;
+  border: 2px solid #fff;
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 1000;
+}
+.cursor-scale {
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.cursor-scale:hover {
+  transform: scale(1.05);
+}
+.grow,
+.grow-small {
+  transform: scale(10);
+  background: #fff;
+  mix-blend-mode: difference;
+  border: none;
+}
+.grow-small {
+  transform: scale(2.5);
+}
+
+.web_container {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
+}
+
+.web_row {
+  display: flex;
+}
+.section_row {
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  color: var(--white);
+}
+
+.header_row {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.header_logo {
+  max-width: 70px;
+  width: 70px;
+  height: 70px;
+}
+.header_logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+/* Define a common style for the navigation links */
+.navbar a {
+  font-size: 14px;
+  padding: 0 20px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  position: relative;
+  color: var(--color-white);
+  /* color: inherit; */
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding-bottom: 5px; /* Space for the dot */
+}
+
+/* Add the dot below the links */
+.navbar a::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background-color: #fff;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 50px;
+}
+
+/* Apply the hover effect */
+.navbar a:hover {
+  transform: translate(-3px, -3px); /* Move left and up */
+}
+
+.navbar a:hover::after {
+  opacity: 1; /* Show the dot on hover */
+  bottom: -10px; /* Move the dot down */
+}
+
+/* Active link styles White Dot On current page */
+.navbar a.active::after {
+  opacity: 1;
+  bottom: -10px;
+  background-color: #fff; /* White dot for active link */
+}
+
+#menu_btn {
+  display: none;
+}
+
+.section_main {
+    width: 100%;
+    height: 100vh;
+  }
+  
+ 
