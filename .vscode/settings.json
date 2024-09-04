@@ -13,5 +13,7 @@
     "textabout",
     "Vohra"
   ],
-  "liveServer.settings.port": 5502
+  "liveServer.settings.port": 5502,
+  "pieces.cloudCapabilities": "Blended",
+  "pieces.telemetry": true
 }
