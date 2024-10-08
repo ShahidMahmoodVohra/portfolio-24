@@ -954,11 +954,13 @@ body {
   .section_1a_para {
     font-size: 14px !important;
     margin-top: -70px;
+    margin-top: -30px;
     margin-left: -5px;
   }
 
   .second {
     margin-top: -100px;
+    margin-top: -50px;
 }
 
   .section_3 img {
