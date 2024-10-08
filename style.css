@@ -896,9 +896,7 @@ body {
   .section_1a_para {
     font-size: 16px !important;
   }
-  .section_2 {
-    display: none;
-  }
+
 
   .section_3 img {
     position: absolute;
@@ -969,9 +967,7 @@ body {
     margin-left: -5px;
   }
 
-  .section_2 {
-    display: none;
-  }
+
 
   .second {
     margin-top: -100px;
