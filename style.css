@@ -722,12 +722,12 @@ body {
     display: none;
   }
   .section_3 img {
-    max-width: 400px;
+    max-width: 400px !important;
   
   }
 
   .section_main {
-  height: 520px;
+  height: 520px !important;
   max-width: 710px;
   }
   .second {
