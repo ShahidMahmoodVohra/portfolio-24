@@ -684,6 +684,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
+    margin-bottom: 30px;
   }
   .navbar-mobile {
     display: flex;
@@ -719,6 +720,15 @@ body {
   }
   .section_1a,.section_2b {
     display: none;
+  }
+  .section_3 img {
+    max-width: 400px;
+  
+  }
+
+  .section_main {
+  height: 520px;
+  max-width: 710px;
   }
   .second {
     padding-top: 0%;
