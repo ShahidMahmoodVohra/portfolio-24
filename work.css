@@ -120,7 +120,7 @@ body {
 
 /* common style for the navigation links */
 .navbar a {
-  font-size: 14px;
+  /* font-size: 14px; */
   padding: 0 20px;
   letter-spacing: 1px;
   text-decoration: none;
